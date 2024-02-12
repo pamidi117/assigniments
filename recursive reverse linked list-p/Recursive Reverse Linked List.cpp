@@ -5,8 +5,7 @@ struct Node {
     Node* next;
 
     Node(int val) : data(val), next(nullptr) {}
-};  //This declares a struct named Node which represents a node in a linked list. It contains an integer data to store the value of the node and a pointer next to point to the next node in the list. It also defines a constructor to initialize the data and next pointer of a node.
-
+};  //This declares a struct named Node which represents a node in a linked list. It contains an integer data to store the value of the node and a pointer next to point to the next node in the list. It also defines a constructor to initialize the data and next pointer of a node
 Node* reverseLinkedListRecursive(Node* head) {
     // Base case: if the current node is nullptr or the last node in the list, return it
     if (head == nullptr || head->next == nullptr)
