@@ -1,5 +1,4 @@
 Explain the iterative approach to search for an element in a linked list. Provide a step-by-step explanation.
-
 Start at the Head: Begin with a pointer pointing to the head of the linked list. This pointer will be used to traverse the linked list.
 
 Traverse the Linked List: While the pointer is not null, continue traversing the linked list. At each step, move the pointer to the next node in the list.

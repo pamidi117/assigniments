@@ -3,7 +3,6 @@
 struct Node {
     int data;
     Node* next;
-
     Node(int val) : data(val), next(nullptr) {}
 };  //This declares a struct named Node which represents a node in a linked list. It contains an integer data and a pointer next to the next node in the list. It also defines a constructor to initialize the data and next pointer of a node.
 
